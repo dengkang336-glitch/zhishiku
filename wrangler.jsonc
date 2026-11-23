@@ -1,0 +1,11 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "zhishiku",
+  "compatibility_date": "2026-11-01",
+  // 纯静态：直接把仓库当资源目录发出去
+  "assets": {
+    "directory": "./",
+    "not_found_handling": "404-page"
+  },
+  "observability": { "enabled": true }
+}
